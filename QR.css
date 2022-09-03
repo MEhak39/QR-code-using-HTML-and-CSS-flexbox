@@ -1,0 +1,45 @@
+body{
+  background-color: hsl(220deg 34% 89%)
+
+}
+.box{
+      width: 432px;
+      height: 651px;
+      border-radius: 30px;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 38px;
+      margin-left: 590px;
+}
+.container{
+  font-family: 'Outfit', 'sans-serif';
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  border-radius: 3px;
+}
+#qr{
+  border-radius: 28px;
+/* padding: 10px; */
+height: 395px;
+width: 392px;
+}
+#content{
+  font-family: 'Outfit', 'sans-serif';
+margin-left: 36px;
+margin-right: 18px;
+font-weight: bolder;
+font-size: 34px;
+}
+#end_content{
+  padding: 2px;
+  align-items: center;
+  margin-left: 45px;
+  margin-right: 45px;
+  font-weight: 400px;
+  opacity: 0.6;
+}
